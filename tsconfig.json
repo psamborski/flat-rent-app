@@ -21,7 +21,13 @@
     "jsx": "react-jsx", // Enable JSX for React
 
     // Node.js-specific options (for Vite config)
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tsbuildinfo" // Single build info file
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tsbuildinfo", // Single build info file
+
+    // Directives for shadcn
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src", "vite.config.ts"], // Include both app and Vite config
   "exclude": ["node_modules", "dist"] // Exclude common directories
