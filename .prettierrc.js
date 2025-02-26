@@ -16,8 +16,8 @@ export default {
   // Plugins
   plugins: [
     '@trivago/prettier-plugin-sort-imports', // Sort imports
-    // 'prettier-plugin-tailwindcss', // Sort Tailwind CSS classes
     'prettier-plugin-organize-attributes', // Organize attributes in JSX/HTML
+    'prettier-plugin-tailwindcss', // Sort Tailwind CSS classes
   ],
 
   // Sort imports configuration
