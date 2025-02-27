@@ -7,7 +7,8 @@ export default {
   printWidth: 100, // Max line width
   jsxSingleQuote: true, // Use single quotes in JSX
   bracketSpacing: true, // Add spaces around brackets, e.g., { foo: bar }
-  arrowParens: 'avoid', // Omit parentheses in single-argument arrow functions
+  arrowParens: 'always', // Use parentheses in single-argument arrow functions
+  spaceBeforeFunctionParen: true, // Spaces before func arguments
   endOfLine: 'lf', // Use LF (Unix) line endings
   quoteProps: 'consistent', // Consistent quotes around object property names
   proseWrap: 'always', // Wrap text in Markdown files
