@@ -27,7 +27,9 @@ export default {
     '^@core/(.*)$', // Core modules
     '<THIRD_PARTY_MODULES>', // Other third-party modules
     '^@ui/(.*)$', // UI components
+    '^@/components/ui/(.*)$', // UI components
     '^.+\\.(css|scss|sass)$', // CSS & SASS imports
+    '^@/', // Local imports
     '^[./]', // Local imports
   ],
   importOrderSeparation: true, // Add a new line between import groups
