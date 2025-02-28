@@ -1,10 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 
-import './App.css'
-
-// import HomePage from './pages/HomePage'
-// import MapPage from './pages/MapPage'
-// import PropertyPage from './pages/PropertyPage'
+import MainPage from '@/pages/MainPage/MainPage.tsx'
 
 const App = () => {
   return (
@@ -12,12 +8,9 @@ const App = () => {
       <div className='app'>
         <span />
         <Routes>
-          <Route
-            path='/'
-            element={<h1 className='text-2xl font-bold underline'> Hello world! </h1>}
-          />
-          {/*<Route path="/rent" element={<MapPage />} />*/}
-          {/*<Route path='/offer/:id' element={<PropertyPage />} />*/}
+          <Route path='/' element={<MainPage />} />
+          {/*<Route path="/rent" element={} />*/}
+          {/*<Route path='/offer/:id' element={} />*/}
         </Routes>
       </div>
     </Router>

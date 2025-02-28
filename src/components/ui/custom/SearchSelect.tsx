@@ -22,6 +22,7 @@ interface Props<T extends string> {
 // todo selected item as tag option
 // todo use user's location to autofill
 // todo to arrow component
+// todo style (loading style as well)
 
 export function SearchSelect<T extends string>({
   selectedValue,
